@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body{
+        background-color:lightblue;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+
+    }
+   
+</style>
+<body>
+    <h1 class="h1">Do You Wanna Hear Something Funny?</h1>
+    <center><button style="background-color: deeppink; width: 40px; height: 30px;color: azure;">Yes!</button></center>
+    <div id="jokeContent"></div>
+    <div id="joke"></div>
+    <center><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRlykf10etdY56_i2iQClgm1hX5YZE7INvH7MshX-W6PDNEwEIK8JPz7KTgG9FEcNfh3Zo&usqp=CAU"></center>
+    <script>
+        const button=document.getElementById("button");
+        const jokeContent=document.getElementById("jokeContent");
+        const joke=document.getElementById("joke");
+        .then(function(response))
+    </script>
+</body>
+</html>
